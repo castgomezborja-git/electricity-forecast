@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Variables de entorno / credenciales
+.env
+
+# Modelos entrenados y artefactos pesados (se generan, no se versionan)
+models/*.joblib
+models/*.pkl
+
+# Notebooks: checkpoints de Jupyter
+.ipynb_checkpoints/

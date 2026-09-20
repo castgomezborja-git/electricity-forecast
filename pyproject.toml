@@ -1,0 +1,17 @@
+[project]
+name = "electricity-forecast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Borja Castano", email = "castgomezborja@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+electricity-forecast = "electricity_forecast:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
